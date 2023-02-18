@@ -25,93 +25,97 @@
 
     <section class="banner">
       <div class="banner__content">
-        <h2>Tienda Online de Computadoras</h2>
+        <h2 class="center color">Tienda Online de Computadoras</h2>
 
-        <p>Paris, Francia</p>
-        <a href="#">Contactar</a>
+        <p class="color">Paris, Francia</p>
+        <a class="button color" href="#">Contactar</a>
       </div>
     </section>
 
-    <main>
-      <h2>Catálogo</h2>
+    <main class="content shadow">
+      <h2 class="center">Catálogo</h2>
 
       <div class="main__content">
+        <section class="main__item">
+          <h3 class="center">Desktop</h3>
+          <img
+            class="main__img"
+            src="/img/desktop.jpg"
+            alt="desktop"
+            height="200px"
+          />
+          <p>
+            Praesent porttitor lacus ac libero malesuada, id cursus erat
+            egestas. Praesent vel est ac massa consequat sollicitudin.
+            Vestibulum consectetur, ipsum et eleifend consectetur.
+          </p>
+        </section>
 
-        <section>
-            <h3>Desktop</h3>
-            <img
-              src="/img/desktop.jpg"
-              alt="desktop"
-              width="240px"
-              height="240px"
-            />
-            <p>
-              Praesent porttitor lacus ac libero malesuada, id cursus erat egestas.
-              Praesent vel est ac massa consequat sollicitudin. Vestibulum
-              consectetur, ipsum et eleifend consectetur, felis nisl sollicitudin
-              leo, a porta eros odio non nisi.
-            </p>
-          </section>
-    
-          <section>
-            <h3>Laptop</h3>
-            <img src="/img/laptop.jpg" alt="desktop" width="240px" height="240px" />
-            <p>
-              Praesent porttitor lacus ac libero malesuada, id cursus erat egestas.
-              Praesent vel est ac massa consequat sollicitudin. Vestibulum
-              consectetur, ipsum et eleifend consectetur, felis nisl sollicitudin
-              leo, a porta eros odio non nisi.
-            </p>
-          </section>
-    
-          <section>
-            <h3>Tablet</h3>
-            <img src="/img/tablet.jpg" alt="desktop" width="240px" height="240px" />
-            <p>
-              Praesent porttitor lacus ac libero malesuada, id cursus erat egestas.
-              Praesent vel est ac massa consequat sollicitudin. Vestibulum
-              consectetur, ipsum et eleifend consectetur, felis nisl sollicitudin
-              leo, a porta eros odio non nisi.
-            </p>
-          </section>
-        </main>
+        <section class="main__item">
+          <h3 class="center">Laptop</h3>
+          <img
+            class="main__img"
+            src="/img/laptop.jpg"
+            alt="desktop"
+            height="200px"
+          />
+          <p>
+            Praesent porttitor lacus ac libero malesuada, id cursus erat
+            egestas. Praesent vel est ac massa consequat sollicitudin.
+            Vestibulum consectetur, ipsum et eleifend consectetur.
+          </p>
+        </section>
 
+        <section class="main__item">
+          <h3 class="center">Tablet</h3>
+          <img
+            class="main__img"
+            src="/img/tablet.jpg"
+            alt="desktop"
+            height="200px"
+          />
+          <p>
+            Praesent porttitor lacus ac libero malesuada, id cursus erat
+            egestas. Praesent vel est ac massa consequat sollicitudin.
+            Vestibulum consectetur, ipsum et eleifend consectetur.
+          </p>
+        </section>
       </div>
 
-      
+      <section class="content">
+        <h2 class="center">Contacto</h2>
 
-    <section>
-      <h2>Contacto</h2>
+        <form class="form" action="">
+          <fieldset>
+            <legend>Contactanos llenando todos los campos</legend>
 
-      <form action="">
-        <fieldset>
-          <legend>Contactanos llenando todos los campos</legend>
-
-          <div>
-            <label for="">Nombre</label>
-            <input type="text" placeholder="Tu nombre" />
-          </div>
-          <div>
-            <label for="">Teléfono</label>
-            <input type="tel" placeholder="Tu teléfono" />
-          </div>
-          <div>
-            <label for="">Correo</label>
-            <input type="email" placeholder="Tu email" />
-          </div>
-          <div>
-            <label for="">Mensaje</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </div>
-          <div>
-            <input type="sumit" value="Enviar" />
-          </div>
-        </fieldset>
-      </form>
-    </section>
-
+            <div class="field__content">
+              <div class="field">
+                <label for="">Nombre</label>
+                <input class="input-text" type="text" placeholder="Tu nombre" />
+              </div>
+              <div class="field">
+                <label for="">Teléfono</label>
+                <input class="input-text" type="tel" placeholder="Tu teléfono" />
+              </div>
+              <div class="field">
+                <label for="">Correo</label>
+                <input class="input-text" type="email" placeholder="Tu email" />
+              </div>
+              <div class="field">
+                <label for="">Mensaje</label>
+                <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+              </div>
+            </div>
+            <div class="flex-end">
+              <input class="button w-sm-100" type="sumit" value="enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
     <footer>
-      <p>Todos los derechos reservados. CoksDev</p>
+      <p class="center">Todos los derechos reservados. CoksDev</p>
     </footer>
   </body>
 </html>
